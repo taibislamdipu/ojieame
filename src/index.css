@@ -7,3 +7,13 @@ body {
   background: black;
 }
 
+.actionBtn{
+  width: 160px;
+  transition: width 0.3s;
+}
+.actionBtn:hover{
+  width: 170px;
+}
+
+
+

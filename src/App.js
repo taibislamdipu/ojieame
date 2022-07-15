@@ -1,8 +1,11 @@
+import HeroSection from "./components/HeroSection/HeroSection";
+import NavBar from "./components/NavBar/NavBar";
 
 function App() {
   return (
     <div>
-      <h1>Hello World!</h1>
+      <NavBar/>
+      <HeroSection/>
     </div>
   );
 }
