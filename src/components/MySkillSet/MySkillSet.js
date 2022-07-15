@@ -2,7 +2,7 @@ import React from "react";
 
 const MySkillSet = ({ isSmallScreen }) => {
   return (
-    <div className="md:flex md:mx-56 mx-10">
+    <div className="md:flex md:mx-56 mx-10 testb">
       <div
         className={`${
           isSmallScreen && "text-center mb-10"

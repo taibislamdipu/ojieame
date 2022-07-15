@@ -7,18 +7,18 @@ body {
   background: black;
 }
 
-.test{
+.test {
   background-color: red;
 }
+.testb {
+  border: 1px solid red;
+}
 
-.actionBtn{
+.actionBtn {
   width: 160px;
   transition: width 0.3s;
 }
-.actionBtn:hover{
+.actionBtn:hover {
   width: 170px;
   padding-left: 7px;
 }
-
-
-

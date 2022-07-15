@@ -6,10 +6,10 @@ module.exports = {
       colors: {
         white: "#ffffff",
         lightGray: "#999",
+        darkGray: "#1a1919",
         blue: "#689af8",
       },
     },
-    
   },
   plugins: [],
 };
