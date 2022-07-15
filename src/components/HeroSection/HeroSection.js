@@ -1,9 +1,7 @@
 import React from "react";
 import humanImg from "../../assets/images/human.jpg";
-import { useMediaQuery } from "react-responsive";
 
-const HeroSection = () => {
-  const isSmallScreen = useMediaQuery({ query: "(max-width: 768px)" });
+const HeroSection = ({ isSmallScreen }) => {
   return (
     <div>
       <div className="md:mx-56 flex items-center mt-20">

@@ -7,12 +7,17 @@ body {
   background: black;
 }
 
+.test{
+  background-color: red;
+}
+
 .actionBtn{
   width: 160px;
   transition: width 0.3s;
 }
 .actionBtn:hover{
   width: 170px;
+  padding-left: 7px;
 }
 
 
