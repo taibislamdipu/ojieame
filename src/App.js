@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar/NavBar";
 import { useMediaQuery } from "react-responsive";
 import Process from "./components/Process/Process";
 import RecentProject from "./components/RecentProject/RecentProject";
+import Career from "./components/Career/Career";
 
 function App() {
   const isSmallScreen = useMediaQuery({ query: "(max-width: 768px)" });
@@ -14,6 +15,7 @@ function App() {
       <MySkillSet isSmallScreen={isSmallScreen} />
       <Process isSmallScreen={isSmallScreen} />
       <RecentProject />
+      <Career isSmallScreen={isSmallScreen} />
     </div>
   );
 }
