@@ -10,25 +10,32 @@ const Process = ({ isSmallScreen }) => {
       .then((data) => setProcessData(data));
   }, []);
 
-  console.log("processData--->", processData);
-
   return (
-    <div className={`${isSmallScreen && "text-center"} text-white md:mx-56`}>
+    <div
+      className={`${isSmallScreen && "text-center"} mb-20 text-white md:mx-56`}
+    >
       <h2 className="mb-6 text-6xl font-bold">
         Process <span className="text-4xl text-blue">+</span>
       </h2>
 
       <section className="flex-wrap md:flex">
         {processData.map((process) => (
-          <div className="mb-6 h-56 w-2/6 md:mb-12">
-            <div className="absolute mt-10 ml-20 md:ml-12">
-              <h3 className="mb-10 text-2xl font-bold">{process?.title}</h3>
-              <ul className=" space-y-3">
-                <li>{process?.list[0]}</li>
-                <li>{process?.list[1]}</li>
-                <li>{process?.list[2]}</li>
-                <li>{process?.list[3]}</li>
-              </ul>
+          <div key={process?.id} className="mb-6 h-56 w-2/6 md:mb-12">
+            <div
+              className={`${
+                isSmallScreen && "left-0 right-0 mx-auto"
+              } absolute mt-10 md:ml-12`}
+            >
+              {/* <div className="mx-24 md:mx-0 "> */}
+              <div className="">
+                <h3 className="mb-10 text-2xl font-bold">{process?.title}</h3>
+                <ul className=" space-y-3">
+                  <li>{process?.list[0]}</li>
+                  <li>{process?.list[1]}</li>
+                  <li>{process?.list[2]}</li>
+                  <li>{process?.list[3]}</li>
+                </ul>
+              </div>
             </div>
             <div className="pt-4">
               <p className=" text-8xl font-bold text-darkGray">
