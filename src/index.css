@@ -22,3 +22,15 @@ body {
   width: 170px;
   padding-left: 7px;
 }
+
+.innerShadow:hover {
+  box-shadow: inset 20px 20px 50px #000000;
+  border: 1px solid red;
+}
+
+.cardTitle {
+  display: none;
+}
+.card:hover .cardTitle {
+  display: block;
+}

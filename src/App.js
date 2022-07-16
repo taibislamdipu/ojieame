@@ -6,6 +6,7 @@ import Process from "./components/Process/Process";
 import RecentProject from "./components/RecentProject/RecentProject";
 import Career from "./components/Career/Career";
 import AboutMe from "./components/AboutMe/AboutMe";
+import CaseStudies from "./components/CaseStudies/CaseStudies";
 
 function App() {
   const isSmallScreen = useMediaQuery({ query: "(max-width: 768px)" });
@@ -18,6 +19,7 @@ function App() {
       <RecentProject />
       <Career isSmallScreen={isSmallScreen} />
       <AboutMe isSmallScreen={isSmallScreen} />
+      <CaseStudies isSmallScreen={isSmallScreen} />
     </div>
   );
 }

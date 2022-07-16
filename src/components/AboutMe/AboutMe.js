@@ -4,8 +4,8 @@ import videoBg from "../../assets/video/bgVideo.mp4";
 
 const AboutMe = ({ isSmallScreen }) => {
   return (
-    <div className="testb h-60 overflow-y-hidden">
-      <div className="absolute z-10 mx-10 flex text-white md:mx-56 ">
+    <div className="testb overflow-y-hidden md:h-60">
+      <div className="absolute z-10 mx-10 text-white md:mx-56 md:flex ">
         <div className="space-y-4 lg:w-2/5">
           <p className="z-0 font-bold text-blue">ABOUT ME</p>
           <h3 className="text-3xl font-bold">
