@@ -9,6 +9,7 @@ module.exports = {
         darkGray: "#1a1919",
         dateGray: "#676767",
         blue: "#689af8",
+        black: "#000",
       },
     },
   },
