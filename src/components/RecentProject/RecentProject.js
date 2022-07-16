@@ -28,28 +28,86 @@ const RecentProject = () => {
     <div className="text-white">
       <Carousel responsive={responsive}>
         <div className="testb mx-10 items-center md:mx-56 md:flex">
-          <div>
-            <img src={carouselImg} alt="" className="rounded-xl" />
+          <div className="card cursor-pointer rounded-xl from-black bg-size-200 bg-pos-0 transition-all duration-500 hover:bg-gradient-to-t hover:bg-pos-100 md:pr-4 ">
+            <div className="cardTitle absolute ml-4">
+              <h1 className="mt-80 text-2xl font-bold">
+                <span className="text-blue">| </span>
+                Soovu
+              </h1>
+            </div>
+            <img
+              src={carouselImg}
+              alt=""
+              className="relative -z-10 block rounded-xl"
+            />
           </div>
           <div>
-            <div className="py-4 md:p-4">
-              <img src={carouselImg} alt="" className="rounded-xl" />
+            <div className="card cursor-pointer rounded-xl from-black bg-size-200 bg-pos-0 py-4 transition-all duration-500 hover:bg-gradient-to-t hover:bg-pos-100">
+              <div className="cardTitle absolute ml-4">
+                <h1 className="mt-80 text-2xl font-bold">
+                  <span className="text-blue">| </span>2
+                </h1>
+              </div>
+              <img
+                src={carouselImg}
+                alt=""
+                className="relative -z-10 block rounded-xl"
+              />
             </div>
-            <div className="md:px-4">
-              <img src={carouselImg} alt="" className="rounded-xl" />
+
+            <div className="card cursor-pointer rounded-xl from-black bg-size-200 bg-pos-0 transition-all duration-500 hover:bg-gradient-to-t hover:bg-pos-100">
+              <div className="cardTitle absolute ml-4">
+                <h1 className="mt-80 text-2xl font-bold">
+                  <span className="text-blue">| </span>3
+                </h1>
+              </div>
+              <img
+                src={carouselImg}
+                alt=""
+                className="relative -z-10 block rounded-xl"
+              />
             </div>
           </div>
         </div>
         <div className="testb mx-10 items-center md:mx-56 md:flex">
-          <div>
-            <img src={carouselImg} alt="" className="rounded-xl" />
+          <div className="card cursor-pointer rounded-xl from-black bg-size-200 bg-pos-0 transition-all duration-500 hover:bg-gradient-to-t hover:bg-pos-100 md:pr-4 ">
+            <div className="cardTitle absolute ml-4">
+              <h1 className="mt-80 text-2xl font-bold">
+                <span className="text-blue">| </span>
+                Soovu
+              </h1>
+            </div>
+            <img
+              src={carouselImg}
+              alt=""
+              className="relative -z-10 block rounded-xl"
+            />
           </div>
           <div>
-            <div className="py-4 md:p-4">
-              <img src={carouselImg} alt="" className="rounded-xl" />
+            <div className="card cursor-pointer rounded-xl from-black bg-size-200 bg-pos-0 py-4 transition-all duration-500 hover:bg-gradient-to-t hover:bg-pos-100">
+              <div className="cardTitle absolute ml-4">
+                <h1 className="mt-80 text-2xl font-bold">
+                  <span className="text-blue">| </span>2
+                </h1>
+              </div>
+              <img
+                src={carouselImg}
+                alt=""
+                className="relative -z-10 block rounded-xl"
+              />
             </div>
-            <div className="md:px-4">
-              <img src={carouselImg} alt="" className="rounded-xl" />
+
+            <div className="card cursor-pointer rounded-xl from-black bg-size-200 bg-pos-0 transition-all duration-500 hover:bg-gradient-to-t hover:bg-pos-100">
+              <div className="cardTitle absolute ml-4">
+                <h1 className="mt-80 text-2xl font-bold">
+                  <span className="text-blue">| </span>3
+                </h1>
+              </div>
+              <img
+                src={carouselImg}
+                alt=""
+                className="relative -z-10 block rounded-xl"
+              />
             </div>
           </div>
         </div>

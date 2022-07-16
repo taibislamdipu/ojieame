@@ -13,7 +13,7 @@ const CaseStudies = ({ isSmallScreen }) => {
         </h2>
       </div>
       <div className="gap-6 md:flex">
-        <div className="card h-full cursor-pointer rounded-xl from-stone-900 bg-size-200 bg-pos-0 transition-all duration-500 hover:bg-gradient-to-t hover:bg-pos-100 md:w-2/4">
+        <div className="card h-full cursor-pointer rounded-xl from-black bg-size-200 bg-pos-0 transition-all duration-500 hover:bg-gradient-to-t hover:bg-pos-100 md:w-2/4">
           <div className="cardTitle absolute ml-4">
             <h1 className="mt-64 text-2xl font-bold">
               <span className="text-blue">| </span>
@@ -27,7 +27,7 @@ const CaseStudies = ({ isSmallScreen }) => {
             style={{ height: 330, width: "100%" }}
           />
         </div>
-        <div className="card h-full cursor-pointer rounded-xl from-stone-900 bg-size-200 bg-pos-0 transition-all duration-500 hover:bg-gradient-to-t hover:bg-pos-100 md:w-2/4">
+        <div className="card h-full cursor-pointer rounded-xl from-black bg-size-200 bg-pos-0 transition-all duration-500 hover:bg-gradient-to-t hover:bg-pos-100 md:w-2/4">
           <div className="cardTitle absolute ml-4">
             <h1 className="mt-64 text-2xl font-bold">
               <span className="text-blue">| </span>
