@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Pre-Process",
+    "list": [
+      "Collect Informations",
+      "Personas",
+      "SetUp Goals",
+      "Project Folder + Moodboard"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Low Fidelity",
+    "list": [
+      "Whiteboard",
+      "Maps Screen Info",
+      "Possible States",
+      "First Diagram"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Work/ Design",
+    "list": ["Moodboard", "First Diagram", "Write your copy", "Intern Test"]
+  },
+  {
+    "id": 4,
+    "title": "Assets & Delivery",
+    "list": ["Specifications", "Diagram", "Final Prototype", "Video x Notes"]
+  },
+  {
+    "id": 5,
+    "title": "Final & Test",
+    "list": ["Inspectlet x hotjar", "Mixpanel", "Google Analytics", "Intercom"]
+  },
+  {
+    "id": 6,
+    "title": "After Design",
+    "list": ["Goals", "Workspace"]
+  }
+]

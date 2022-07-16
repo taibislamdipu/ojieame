@@ -2,7 +2,7 @@ import React from "react";
 
 const MySkillSet = ({ isSmallScreen }) => {
   return (
-    <div className="testb mx-10 md:mx-56 md:flex">
+    <div className="mx-10 mt-24 mb-32 md:mx-56 md:mt-14 md:flex">
       <div
         className={`${
           isSmallScreen && "mb-10 text-center"
@@ -12,16 +12,17 @@ const MySkillSet = ({ isSmallScreen }) => {
         <h2 className="text-4xl font-bold">
           Graphic Design,
           <br />
-          Interface Design &
+          Interface Design
+          {isSmallScreen && <br />} &
           <br />
           User Experience
         </h2>
-        <button className="actionBtn border-b border-solid border-blue pb-2">
+        <button className="actionBtn border-b border-solid border-blue pt-6 pb-2">
           MY PROCESS
         </button>
       </div>
       <div className="lg:w-1/2">
-        <p className="text-justify text-white md:w-3/4">
+        <p className="text-justify text-lightGray md:w-3/4">
           I specialize in building complex web applications, leading front-end
           teams, digital product design and developing visual design systems. I
           enjoy creating effortless user experience and designing delightful
