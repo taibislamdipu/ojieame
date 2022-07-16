@@ -26,9 +26,16 @@ const RecentProject = () => {
 
   return (
     <div className="text-white">
+      <div className="absolute z-10 text-2xl md:mx-56">
+        <h2 className="text-6xl font-bold ">
+          Recent
+          <br />
+          Projects <span className="text-4xl text-blue">+</span>
+        </h2>
+      </div>
       <Carousel responsive={responsive}>
         <div className="testb mx-10 items-center md:mx-56 md:flex">
-          <div className="card cursor-pointer rounded-xl from-black bg-size-200 bg-pos-0 transition-all duration-500 hover:bg-gradient-to-t hover:bg-pos-100 md:pr-4 ">
+          <div className="card cursor-pointer rounded-xl md:pr-4">
             <div className="cardTitle absolute ml-4">
               <h1 className="mt-80 text-2xl font-bold">
                 <span className="text-blue">| </span>
@@ -42,7 +49,7 @@ const RecentProject = () => {
             />
           </div>
           <div>
-            <div className="card cursor-pointer rounded-xl from-black bg-size-200 bg-pos-0 py-4 transition-all duration-500 hover:bg-gradient-to-t hover:bg-pos-100">
+            <div className="card cursor-pointer rounded-xl py-4">
               <div className="cardTitle absolute ml-4">
                 <h1 className="mt-80 text-2xl font-bold">
                   <span className="text-blue">| </span>2
@@ -55,7 +62,7 @@ const RecentProject = () => {
               />
             </div>
 
-            <div className="card cursor-pointer rounded-xl from-black bg-size-200 bg-pos-0 transition-all duration-500 hover:bg-gradient-to-t hover:bg-pos-100">
+            <div className="card cursor-pointer rounded-xl">
               <div className="cardTitle absolute ml-4">
                 <h1 className="mt-80 text-2xl font-bold">
                   <span className="text-blue">| </span>3
@@ -70,7 +77,7 @@ const RecentProject = () => {
           </div>
         </div>
         <div className="testb mx-10 items-center md:mx-56 md:flex">
-          <div className="card cursor-pointer rounded-xl from-black bg-size-200 bg-pos-0 transition-all duration-500 hover:bg-gradient-to-t hover:bg-pos-100 md:pr-4 ">
+          <div className="card cursor-pointer rounded-xl md:pr-4">
             <div className="cardTitle absolute ml-4">
               <h1 className="mt-80 text-2xl font-bold">
                 <span className="text-blue">| </span>
@@ -84,7 +91,7 @@ const RecentProject = () => {
             />
           </div>
           <div>
-            <div className="card cursor-pointer rounded-xl from-black bg-size-200 bg-pos-0 py-4 transition-all duration-500 hover:bg-gradient-to-t hover:bg-pos-100">
+            <div className="card cursor-pointer rounded-xl py-4">
               <div className="cardTitle absolute ml-4">
                 <h1 className="mt-80 text-2xl font-bold">
                   <span className="text-blue">| </span>2
@@ -97,7 +104,7 @@ const RecentProject = () => {
               />
             </div>
 
-            <div className="card cursor-pointer rounded-xl from-black bg-size-200 bg-pos-0 transition-all duration-500 hover:bg-gradient-to-t hover:bg-pos-100">
+            <div className="card cursor-pointer rounded-xl">
               <div className="cardTitle absolute ml-4">
                 <h1 className="mt-80 text-2xl font-bold">
                   <span className="text-blue">| </span>3
