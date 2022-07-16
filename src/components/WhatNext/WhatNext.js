@@ -1,6 +1,8 @@
 import React from "react";
 import typewriterImg from "../../assets/images/typewriterImg.png";
 import "./WhatNext.css";
+import { GrMail } from "react-icons/gr";
+
 const WhatNext = ({ isSmallScreen }) => {
   return (
     <div className="text-center">
@@ -23,7 +25,12 @@ const WhatNext = ({ isSmallScreen }) => {
             <br />
             landing pages gigs.
           </p>
-          <p>WRITE ME AN EMAIL</p>
+          <div className="flex justify-center">
+            <button className="actionBtn flex items-center gap-8 border-b border-solid border-blue pb-2">
+              FOLLOW ME INSTAGRAM
+              <GrMail size={26} />
+            </button>
+          </div>
         </div>
       </div>
 

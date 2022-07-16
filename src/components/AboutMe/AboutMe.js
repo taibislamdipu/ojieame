@@ -1,6 +1,7 @@
 import React from "react";
 import "./AboutMe.css";
 import videoBg from "../../assets/video/bgVideo.mp4";
+import { AiFillInstagram } from "react-icons/ai";
 
 const AboutMe = ({ isSmallScreen }) => {
   return (
@@ -15,7 +16,11 @@ const AboutMe = ({ isSmallScreen }) => {
             <br />
             Solving
           </h3>
-          <p>FOLLOW ME INSTAGRAM</p>
+
+          <button className="actionBtn flex items-center gap-8 border-b border-solid border-blue pb-2">
+            FOLLOW ME INSTAGRAM
+            <AiFillInstagram size={26} />
+          </button>
         </div>
         <div className="lg:w-1/2">
           <p className="text-lightGray">

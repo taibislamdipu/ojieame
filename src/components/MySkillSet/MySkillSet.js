@@ -2,13 +2,13 @@ import React from "react";
 
 const MySkillSet = ({ isSmallScreen }) => {
   return (
-    <div className="md:flex md:mx-56 mx-10 testb">
+    <div className="testb mx-10 md:mx-56 md:flex">
       <div
         className={`${
-          isSmallScreen && "text-center mb-10"
-        } text-white  lg:w-1/2 space-y-6 `}
+          isSmallScreen && "mb-10 text-center"
+        } space-y-6  text-white lg:w-1/2 `}
       >
-        <h3 className="text-blue font-bold">MY SKILLSET</h3>
+        <h3 className="font-bold text-blue">MY SKILLSET</h3>
         <h2 className="text-4xl font-bold">
           Graphic Design,
           <br />
@@ -16,12 +16,12 @@ const MySkillSet = ({ isSmallScreen }) => {
           <br />
           User Experience
         </h2>
-        <button className=" text-start border-solid border-b pr-4 pb-2 border-blue ">
+        <button className="actionBtn border-b border-solid border-blue pb-2">
           MY PROCESS
         </button>
       </div>
       <div className="lg:w-1/2">
-        <p className="text-white text-justify md:w-3/4">
+        <p className="text-justify text-white md:w-3/4">
           I specialize in building complex web applications, leading front-end
           teams, digital product design and developing visual design systems. I
           enjoy creating effortless user experience and designing delightful

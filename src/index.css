@@ -15,13 +15,18 @@ body {
   border: 1px solid red;
 }
 
-.actionBtn {
+/* .actionBtn {
   width: 160px;
   transition: width 0.3s;
 }
 .actionBtn:hover {
   width: 170px;
   padding-left: 7px;
+} */
+
+.actionBtn:hover {
+  padding-left: 22px;
+  transition: 0.3s;
 }
 
 .innerShadow:hover {
