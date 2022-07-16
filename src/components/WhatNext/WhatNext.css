@@ -1,0 +1,10 @@
+@media only screen and (min-width: 992px) {
+  .textContainer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+  }
+}
