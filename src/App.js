@@ -18,7 +18,7 @@ function App() {
       <HeroSection isSmallScreen={isSmallScreen} />
       <MySkillSet isSmallScreen={isSmallScreen} />
       <Process isSmallScreen={isSmallScreen} />
-      <RecentProject />
+      <RecentProject isSmallScreen={isSmallScreen} />
       <Career isSmallScreen={isSmallScreen} />
       <AboutMe isSmallScreen={isSmallScreen} />
       <CaseStudies isSmallScreen={isSmallScreen} />

@@ -2,8 +2,9 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import carouselImg from "../../assets/images/carouselImg.jpg";
+import { AiFillDribbbleCircle } from "react-icons/ai";
 
-const RecentProject = () => {
+const RecentProject = ({ isSmallScreen }) => {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -25,16 +26,32 @@ const RecentProject = () => {
   };
 
   return (
-    <div className="text-white">
-      <div className="absolute z-10 text-2xl md:mx-56">
-        <h2 className="text-6xl font-bold ">
-          Recent
-          <br />
-          Projects <span className="text-4xl text-blue">+</span>
-        </h2>
+    <div className="mb-20 text-white">
+      <div
+        style={{ height: "100%" }}
+        className={`${
+          isSmallScreen && "mb-10 text-center"
+        } z-10 flex flex-col justify-between text-2xl md:absolute md:mx-56`}
+      >
+        <div>
+          <h2 className="text-6xl font-bold ">
+            Recent
+            <br />
+            Projects <span className="text-4xl text-blue">+</span>
+          </h2>
+        </div>
+
+        {!isSmallScreen && (
+          <div>
+            <button className="actionBtn flex items-center gap-8 border-b border-solid border-blue pb-2 text-base">
+              My Dribbble
+              <AiFillDribbbleCircle size={26} />
+            </button>
+          </div>
+        )}
       </div>
       <Carousel responsive={responsive}>
-        <div className="testb mx-10 items-center md:mx-56 md:flex">
+        <div className="mx-10 items-center md:mx-56 md:flex">
           <div className="card cursor-pointer rounded-xl md:pr-4">
             <div className="cardTitle absolute ml-4">
               <h1 className="mt-80 text-2xl font-bold">
@@ -48,6 +65,7 @@ const RecentProject = () => {
               className="relative -z-10 block rounded-xl"
             />
           </div>
+
           <div>
             <div className="card cursor-pointer rounded-xl py-4">
               <div className="cardTitle absolute ml-4">
@@ -76,7 +94,7 @@ const RecentProject = () => {
             </div>
           </div>
         </div>
-        <div className="testb mx-10 items-center md:mx-56 md:flex">
+        <div className="mx-10 items-center md:mx-56 md:flex">
           <div className="card cursor-pointer rounded-xl md:pr-4">
             <div className="cardTitle absolute ml-4">
               <h1 className="mt-80 text-2xl font-bold">
@@ -119,6 +137,15 @@ const RecentProject = () => {
           </div>
         </div>
       </Carousel>
+
+      {isSmallScreen && (
+        <div className="flex justify-center py-4">
+          <button className="actionBtn flex items-center gap-8 border-b border-solid border-blue pb-2 text-base">
+            My Dribbble
+            <AiFillDribbbleCircle size={26} />
+          </button>
+        </div>
+      )}
     </div>
   );
 };
