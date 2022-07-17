@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-const axios = require("axios").default;
+// const axios = require("axios").default;
 
 const Process = ({ isSmallScreen }) => {
   const [processData, setProcessData] = useState([]);
