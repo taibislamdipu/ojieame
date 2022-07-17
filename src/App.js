@@ -9,6 +9,7 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import CaseStudies from "./components/CaseStudies/CaseStudies";
 import WhatNext from "./components/WhatNext/WhatNext";
 import Footer from "./components/Footer/Footer";
+import ClientReview from "./components/ClientReview/ClientReview";
 
 function App() {
   const isSmallScreen = useMediaQuery({ query: "(max-width: 768px)" });
@@ -23,6 +24,7 @@ function App() {
       <AboutMe isSmallScreen={isSmallScreen} />
       <CaseStudies isSmallScreen={isSmallScreen} />
       <WhatNext isSmallScreen={isSmallScreen} />
+      <ClientReview isSmallScreen={isSmallScreen} />
       <Footer isSmallScreen={isSmallScreen} />
     </div>
   );

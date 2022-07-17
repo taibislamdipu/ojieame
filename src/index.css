@@ -57,14 +57,13 @@ body {
   height: 330px;
 }
 
-.react-multiple-carousel__arrow::before {
+/* .react-multiple-carousel__arrow::before {
   border: 1px solid #689af8 !important;
   border-radius: 50% !important;
   padding: 35px 40px;
-}
+} */
 
-/* Animation */
-
+/* Animation Card Title */
 @keyframes fadeInUp {
   from {
     transform: translate3d(0, 40px, 0);
@@ -102,4 +101,20 @@ body {
   opacity: 0;
   animation-name: fadeInUp;
   -webkit-animation-name: fadeInUp;
+}
+
+.reviewCard {
+  width: 350px;
+  height: 290px;
+  overflow: hidden;
+  border: 1px solid #f8b712;
+  border-radius: 10px;
+}
+.reviewCard:hover {
+  box-shadow: 0px 0px 20px -4px rgba(248, 183, 18, 1);
+  cursor: pointer;
+}
+
+.star-rating {
+  color: #f8b712;
 }

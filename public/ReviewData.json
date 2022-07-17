@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/JQ4DV3M/1.jpg",
+    "username": "Sheila Henderson",
+    "rating": 5,
+    "review": "He understood very well my needs and quickly provided me with a quality work. I would higlhy recommend to others as the service was efficient and neat"
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/BcTw0rt/30.jpg",
+    "username": "Andrea Armstrong",
+    "rating": 4,
+    "review": "He was very patient and was always willing to work on the desired changes of the final design. Highly recommended."
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/9TLXdHB/34.jpg",
+    "username": "Jessica Chambers",
+    "rating": 4,
+    "review": "I really appreciated the communication and the speed. thank you for all !"
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/jftMj2z/55.jpg",
+    "username": "Emily Craig",
+    "rating": 5,
+    "review": "Rapid response, very good communication and fast delivery, good product! He is very kind and welcoming .She is also a professional designer."
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/N20JSXm/95.jpg",
+    "username": "Jessica Chambers",
+    "rating": 4,
+    "review": "Awesome high-quality output , professional, trustworthy and fast as the many reviews mention."
+  }
+]
