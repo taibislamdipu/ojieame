@@ -19,7 +19,7 @@ const CaseStudies = ({ isSmallScreen }) => {
       <div className="gap-6 space-y-4 md:flex md:space-y-0">
         <div className="card h-full cursor-pointer rounded-xl md:w-2/4 ">
           <div className="cardTitle absolute ml-4">
-            <h1 className="mt-64 text-2xl font-bold">
+            <h1 className="z-50 mt-64 text-2xl font-bold">
               <span className="text-blue">| </span>
               Soovu
             </h1>
