@@ -15,4 +15,4 @@ Client side code: https://github.com/taibislamdipu/ojieame
 
 ### 1) Home
 
-![alt preview](https://prnt.sc/giS6ikir8xYW)
+![alt preview](https://i.ibb.co/QfpJfTj/home.png)
