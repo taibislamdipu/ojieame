@@ -10,7 +10,7 @@ const HeroSection = ({ isSmallScreen }) => {
             isSmallScreen && "absolute mx-10 text-center"
           }  space-y-6 text-white md:w-2/5`}
           data-aos="fade-up"
-          data-aos-duration="3000"
+          data-aos-duration="1000"
         >
           <h2 className="text-3xl font-bold">Hello, it's me</h2>
           <h1 className="text-7xl font-bold md:text-8xl">
@@ -41,7 +41,7 @@ const HeroSection = ({ isSmallScreen }) => {
           <div
             className="mx-auto md:w-1/2"
             data-aos="zoom-in"
-            data-aos-duration="3000"
+            data-aos-duration="2000"
           >
             {isSmallScreen ? (
               <img src={humanImg} alt="" className="" />

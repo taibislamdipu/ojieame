@@ -8,7 +8,7 @@ const MySkillSet = ({ isSmallScreen }) => {
           isSmallScreen && "mb-10 text-center"
         }  space-y-6 text-white lg:w-1/2`}
         data-aos="fade-up"
-        data-aos-duration="2000"
+        data-aos-duration="1500"
       >
         <h3 className="font-bold text-blue">MY SKILLSET</h3>
         <h2 className="text-4xl font-bold">
