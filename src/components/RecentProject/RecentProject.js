@@ -26,7 +26,7 @@ const RecentProject = ({ isSmallScreen }) => {
   };
 
   return (
-    <div className="mb-20 text-white">
+    <div className="mb-36 text-white">
       <div
         style={{ height: "100%" }}
         className={`${

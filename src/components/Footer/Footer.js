@@ -4,8 +4,8 @@ const Footer = ({ isSmallScreen }) => {
   return (
     <div
       className={`${
-        isSmallScreen && "text-center"
-      } testb mx-10 items-center justify-between md:mx-56 md:flex`}
+        isSmallScreen && "mb-14 text-center"
+      } mx-10 mb-5 items-center justify-between md:mx-56 md:flex`}
     >
       <div>
         <p className="font-bold text-dateGray">BUILT FROM SCRATCH BY ME .)</p>

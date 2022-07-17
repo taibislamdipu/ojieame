@@ -5,11 +5,17 @@ import { AiFillInstagram } from "react-icons/ai";
 
 const AboutMe = ({ isSmallScreen }) => {
   return (
-    <div className="testb overflow-y-hidden md:h-60">
+    <div className="mb-36 overflow-y-hidden md:h-60">
       <div className="absolute z-10 mx-10 text-white md:mx-56 md:flex ">
         <div className="space-y-4 lg:w-2/5">
-          <p className="z-0 font-bold text-blue">ABOUT ME</p>
-          <h3 className="text-3xl font-bold">
+          <p
+            className={`${
+              isSmallScreen && "text-center"
+            } z-0 font-bold text-blue`}
+          >
+            ABOUT ME
+          </p>
+          <h3 className="text-4xl font-bold">
             Designing with
             <br />
             passion for Problem
@@ -23,7 +29,7 @@ const AboutMe = ({ isSmallScreen }) => {
           </button>
         </div>
         <div className="lg:w-1/2">
-          <p className="text-lightGray">
+          <p className="text-justify text-lightGray">
             I've always been passionate about pixels and design projects and
             haven't stopped working and learning about new technologies . Other
             than sitting in from of my display I enjoy myself in casual sports,

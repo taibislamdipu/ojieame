@@ -11,19 +11,19 @@ const Career = ({ isSmallScreen }) => {
   }, []);
 
   return (
-    <div className="testb mx-10 text-white md:mx-56">
+    <div className="mx-10 mb-32 text-white md:mx-56">
       <div
         className={`${
           isSmallScreen && "text-center"
-        } items-center justify-between md:flex`}
+        } mb-10 items-center justify-between md:flex`}
       >
         <div>
           <h2 className="text-6xl font-bold ">
             Career <span className="text-3xl text-blue md:text-4xl">+</span>
           </h2>
         </div>
-        <div>
-          <button className="actionBtn flex items-center gap-32 border-b border-solid border-blue pb-2">
+        <div className="flex justify-center">
+          <button className="actionBtn mt-4 mb-4 flex items-center gap-14 border-b border-solid border-blue pb-2 md:mt-0 md:mb-0 md:gap-32">
             Get CV
             <FaFileAlt size={16} />
           </button>
@@ -31,7 +31,7 @@ const Career = ({ isSmallScreen }) => {
       </div>
       <div className="md:flex">
         {careerData.map((career) => (
-          <div className="md:w-1/4" key={career.id}>
+          <div className="mb-6 md:mb-0 md:w-1/4" key={career.id}>
             <div className="flex items-center">
               <span className="text-blue">|</span>
               <h5 className="pl-4 text-2xl font-bold">{career?.title}</h5>

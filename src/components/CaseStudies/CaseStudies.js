@@ -5,15 +5,19 @@ import image2 from "../../assets/images/image2.png";
 const CaseStudies = ({ isSmallScreen }) => {
   return (
     <div
-      className={`${isSmallScreen && "mt-96"} testb mx-10 text-white md:mx-56`}
+      className={`${isSmallScreen && "mt-96"} mx-10 mb-16 text-white md:mx-56`}
     >
       <div>
-        <h2 className="text-6xl font-bold ">
+        <h2
+          className={`${
+            isSmallScreen && "mb-28 text-center"
+          } mb-12 text-4xl font-bold md:text-6xl`}
+        >
           Case Studies <span className="text-3xl text-blue md:text-4xl">+</span>
         </h2>
       </div>
-      <div className="gap-6 md:flex">
-        <div className="card h-full cursor-pointer rounded-xl md:w-2/4">
+      <div className="gap-6 space-y-4 md:flex md:space-y-0">
+        <div className="card h-full cursor-pointer rounded-xl md:w-2/4 ">
           <div className="cardTitle absolute ml-4">
             <h1 className="mt-64 text-2xl font-bold">
               <span className="text-blue">| </span>
