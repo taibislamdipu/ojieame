@@ -23,10 +23,12 @@ const AboutMe = ({ isSmallScreen }) => {
             Solving
           </h3>
 
-          <button className="actionBtn flex items-center gap-8 border-b border-solid border-blue pb-2">
-            FOLLOW ME INSTAGRAM
-            <AiFillInstagram size={26} />
-          </button>
+          <div className={`${isSmallScreen && "flex justify-center py-8"}`}>
+            <button className="actionBtn flex items-center gap-8 border-b border-solid border-blue pb-2">
+              FOLLOW ME INSTAGRAM
+              <AiFillInstagram size={26} />
+            </button>
+          </div>
         </div>
         <div className="lg:w-1/2">
           <p className="text-justify text-lightGray">

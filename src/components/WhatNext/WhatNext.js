@@ -5,7 +5,7 @@ import { GrMail } from "react-icons/gr";
 
 const WhatNext = ({ isSmallScreen }) => {
   return (
-    <div className="text-center">
+    <div className="mb-20 text-center md:mb-0">
       <div className="textContainer absolute z-20 mx-10 text-center align-middle text-white">
         <div className="space-y-4">
           <p className="font-bold text-blue">WHATS NEXT</p>
@@ -27,7 +27,7 @@ const WhatNext = ({ isSmallScreen }) => {
           </p>
           <div className="flex justify-center">
             <button className="actionBtn flex items-center gap-8 border-b border-solid border-blue pb-2">
-              FOLLOW ME INSTAGRAM
+              WRITE ME AN EMAIL
               <GrMail size={26} />
             </button>
           </div>

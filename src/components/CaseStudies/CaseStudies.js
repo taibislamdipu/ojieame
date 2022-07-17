@@ -10,8 +10,8 @@ const CaseStudies = ({ isSmallScreen }) => {
       <div>
         <h2
           className={`${
-            isSmallScreen && "mb-28 text-center"
-          } mb-12 text-4xl font-bold md:text-6xl`}
+            isSmallScreen && "mb-28 pt-28 text-center"
+          } mb-28  text-4xl font-bold md:text-6xl`}
         >
           Case Studies <span className="text-3xl text-blue md:text-4xl">+</span>
         </h2>
