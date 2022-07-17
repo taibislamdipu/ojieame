@@ -15,24 +15,10 @@ body {
   border: 1px solid red;
 }
 
-/* .actionBtn {
-  width: 160px;
-  transition: width 0.3s;
-}
-.actionBtn:hover {
-  width: 170px;
-  padding-left: 7px;
-} */
-
 .actionBtn:hover {
   padding-left: 22px;
   transition: 0.3s;
 }
-
-/* .innerShadow:hover {
-  box-shadow: inset 20px 20px 50px #000000;
-  border: 1px solid red;
-} */
 
 .cardTitle {
   display: none;
@@ -47,4 +33,15 @@ body {
     #000000 -0.25%,
     rgba(48, 48, 48, 0) 78.77%
   );
+}
+
+.carouselImg {
+  width: 460px;
+  height: 330px;
+}
+
+.react-multiple-carousel__arrow::before {
+  border: 1px solid #689af8 !important;
+  border-radius: 50% !important;
+  padding: 35px 40px;
 }

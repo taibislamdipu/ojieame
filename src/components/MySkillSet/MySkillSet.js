@@ -6,7 +6,9 @@ const MySkillSet = ({ isSmallScreen }) => {
       <div
         className={`${
           isSmallScreen && "mb-10 text-center"
-        } space-y-6  text-white lg:w-1/2 `}
+        }  space-y-6 text-white lg:w-1/2`}
+        data-aos="fade-up"
+        data-aos-duration="2000"
       >
         <h3 className="font-bold text-blue">MY SKILLSET</h3>
         <h2 className="text-4xl font-bold">
@@ -21,7 +23,7 @@ const MySkillSet = ({ isSmallScreen }) => {
           MY PROCESS
         </button>
       </div>
-      <div className="lg:w-1/2">
+      <div className="lg:w-1/2" data-aos="fade-up" data-aos-duration="2000">
         <p className="text-justify text-lightGray md:w-3/4">
           I specialize in building complex web applications, leading front-end
           teams, digital product design and developing visual design systems. I

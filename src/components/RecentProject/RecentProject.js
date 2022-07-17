@@ -56,7 +56,7 @@ const RecentProject = ({ isSmallScreen }) => {
             <div className="cardTitle absolute ml-4">
               <h1 className="mt-80 text-2xl font-bold">
                 <span className="text-blue">| </span>
-                Soovu
+                WeMaMobile
               </h1>
             </div>
             <img
@@ -70,7 +70,7 @@ const RecentProject = ({ isSmallScreen }) => {
             <div className="card cursor-pointer rounded-xl py-4">
               <div className="cardTitle absolute ml-4">
                 <h1 className="mt-80 text-2xl font-bold">
-                  <span className="text-blue">| </span>2
+                  <span className="text-blue">| </span>UAE
                 </h1>
               </div>
               <img
@@ -83,7 +83,7 @@ const RecentProject = ({ isSmallScreen }) => {
             <div className="card cursor-pointer rounded-xl">
               <div className="cardTitle absolute ml-4">
                 <h1 className="mt-80 text-2xl font-bold">
-                  <span className="text-blue">| </span>3
+                  <span className="text-blue">| </span>Xchangewise
                 </h1>
               </div>
               <img
@@ -99,7 +99,7 @@ const RecentProject = ({ isSmallScreen }) => {
             <div className="cardTitle absolute ml-4">
               <h1 className="mt-80 text-2xl font-bold">
                 <span className="text-blue">| </span>
-                Soovu
+                Kisi Security
               </h1>
             </div>
             <img
@@ -112,7 +112,7 @@ const RecentProject = ({ isSmallScreen }) => {
             <div className="card cursor-pointer rounded-xl py-4">
               <div className="cardTitle absolute ml-4">
                 <h1 className="mt-80 text-2xl font-bold">
-                  <span className="text-blue">| </span>2
+                  <span className="text-blue">| </span>FBN
                 </h1>
               </div>
               <img
@@ -125,7 +125,7 @@ const RecentProject = ({ isSmallScreen }) => {
             <div className="card cursor-pointer rounded-xl">
               <div className="cardTitle absolute ml-4">
                 <h1 className="mt-80 text-2xl font-bold">
-                  <span className="text-blue">| </span>3
+                  <span className="text-blue">| </span>VizarHomes
                 </h1>
               </div>
               <img

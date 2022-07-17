@@ -25,8 +25,9 @@ const Process = ({ isSmallScreen }) => {
               className={`${
                 isSmallScreen && "left-0 right-0 mx-auto"
               } absolute mt-10 md:ml-12`}
+              data-aos="fade-up"
+              data-aos-duration="2000"
             >
-              {/* <div className="mx-24 md:mx-0 "> */}
               <div className="">
                 <h3 className="mb-10 text-2xl font-bold">{process?.title}</h3>
                 <ul className=" space-y-3">

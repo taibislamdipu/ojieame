@@ -29,7 +29,7 @@ const Career = ({ isSmallScreen }) => {
           </button>
         </div>
       </div>
-      <div className="md:flex">
+      <div className="md:flex" data-aos="fade-right" data-aos-duration="1000">
         {careerData.map((career) => (
           <div className="mb-6 md:mb-0 md:w-1/4" key={career.id}>
             <div className="flex items-center">
