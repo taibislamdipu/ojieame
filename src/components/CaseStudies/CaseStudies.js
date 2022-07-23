@@ -31,6 +31,7 @@ const CaseStudies = ({ isSmallScreen }) => {
             style={{ height: 330, width: "100%" }}
           />
         </div>
+
         <div className="card h-full cursor-pointer rounded-xl md:w-2/4">
           <div className="cardTitle animated animatedFadeInUp fadeInUp absolute ml-4">
             <h1 className="mt-64 text-2xl font-bold">

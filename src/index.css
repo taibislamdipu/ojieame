@@ -15,9 +15,12 @@ body {
   border: 1px solid red;
 }
 
+.actionBtn {
+  transition: 0.3s;
+}
+
 .actionBtn:hover {
   padding-left: 22px;
-  transition: 0.3s;
 }
 
 .cardTitle {
