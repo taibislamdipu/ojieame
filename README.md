@@ -1,6 +1,6 @@
 # ojieame design.
 
-Assignment task - Intern Front-end Developer position in Bangla Puzzle Limited.
+Portfolio website for UI/UX Developer.
 
 ## Website : https://ojieame.netlify.app/
 
