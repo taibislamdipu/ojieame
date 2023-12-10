@@ -4,11 +4,20 @@ const Footer = ({ isSmallScreen }) => {
   return (
     <div
       className={`${
-        isSmallScreen && "mb-14 text-center"
-      } mx-10 mb-5 items-center justify-between md:mx-56 md:flex`}
+        isSmallScreen && "text-center"
+      } mx-10 mb-5 items-center justify-between space-y-10 py-10 md:mx-56 md:flex lg:space-y-0 lg:py-20`}
     >
       <div>
-        <p className="font-bold text-dateGray">BUILT FROM SCRATCH BY ME .)</p>
+        <p className="font-bold text-dateGray">
+          Designed & Developed{" "}
+          <a
+            className="text-[#2196f3] underline hover:text-[#2181F3]"
+            href="https://www.linkedin.com/in/taibislamdipu"
+          >
+            Taib Islam
+          </a>
+          , All Rights Reserved.
+        </p>
       </div>
       <div className="flex justify-center">
         <img
