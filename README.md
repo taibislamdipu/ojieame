@@ -1,10 +1,8 @@
-# ojieame design.
+# Ojieame Design.
 
-Portfolio website for UI/UX Developer.
+A portfolio website for a product designer who wants to showcase his works. Built with HTML, CSS, and JavaScript. Features responsive design, smooth animations, and a lightbox gallery.
 
-## Website : https://ojieame.netlify.app/
-
-Client side code: https://github.com/taibislamdipu/ojieame
+## Website : https://ojieame.netlify.app
 
 ## Build With
 
